@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Products page</title>
+
+        <!-- css file -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <ul id="list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="user.html">Users</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <span id="menuBar">&#9776;</span>
+                </nav>
+            </div>
+        </header>
+
+        <main id="productsMain">
+            <div class="sidenav">
+                <ul>
+                    <li><a href="./products.html">Electronics</a></li>
+                    <li><a href="./products/jewellery.html">Jewellery</a></li>
+                    <li><a href="./products/menswearing.html">MensWearing</a></li>
+                    <li><a href="./products/womenswearing.html">WomensWearing</a></li>
+                </ul>
+            </div>
+            <div class="products_container">
+                <div class="heading">
+                    <h2><span id="category"></span> category</h2>
+                </div>
+                <!-- products -->
+                <div class="product_info">
+                    <div class="image_div" id="image">
+                    
+                    </div>
+                    <div class="image_desc_div">
+                        <h3 id="title"></h3>
+                        <h4 id="price"></h4>
+                        <p id="desc"></p>
+                        <p id="rating"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- script file -->
+        <script src="script.js"></script>
+    </body>
+</html>
